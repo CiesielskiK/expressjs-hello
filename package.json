@@ -1,0 +1,20 @@
+{
+  "name": "express-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "node_modules/.bin/jshint server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "nodemon": "^1.17.2"
+  }
+}
